@@ -1,4 +1,4 @@
-def filter_odd_numbers(numbers):
+def filter_odd_numbers(numbers:int ) -> int:
     """Filters odd numbers from a sequence of numbers."""
     result = []
     for num in numbers:
